@@ -2,11 +2,11 @@
 	"name": "gallywoodapi",
 	"version": "1.0.0",
 	"description": "Application for straming of ghanaian movies",
-	"main": "index.js",
+	"main": "init.js",
 	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": " nodemon babel-node index.js"
+		"start": " nodemon babel-node init.js"
 	},
 	"author": "",
 	"license": "ISC",
@@ -15,7 +15,8 @@
 		"body-parser": "^1.19.0",
 		"cookie-parser": "^1.4.6",
 		"express": "^4.17.1",
-		"helmet": "^4.6.0"
+		"helmet": "^4.6.0",
+		"pug": "^3.0.2"
 	},
 	"devDependencies": {
 		"@babel/preset-env": "^7.16.4",
