@@ -1,19 +1,11 @@
 export const homeController = (req, res) => {
-	res.render('home');
-};
-
-export const joinController = (req, res) => {
-	res.render('join');
+	// const { term } = req.query.term;
+	// console.log(term);
+	res.render('home', { pageTitle: 'Home' });
 };
 
 export const searchController = (req, res) => {
-	res.render('search');
-};
+	const { term } = req.query;
 
-export const loginContronller = (req, res) => {
-	res.render('login');
-};
-
-export const logOutController = (req, res) => {
-	res.render('logout');
+	res.render('search', { pageTitle: 'Search', term });
 };

@@ -3,25 +3,25 @@ export const getUser = (req, res) => {
 };
 
 export const login = (req, res) => {
-	res.render('login');
+	res.render('login', { pageTitle: 'Login' });
 };
 
 export const logout = (req, res) => {
-	res.render('logout');
+	res.render('logout', { pageTitle: 'Logout' });
 };
 
 export const join = (req, res) => {
-	res.render('join');
+	res.render('join', { pageTitle: 'Join' });
 };
 
 export const userDetails = (req, res) => {
-	res.render('userDetails');
+	res.render('userDetails', { pageTitle: 'User Details' });
 };
 
 export const userProfileEdit = (req, res) => {
-	res.render('editProfile');
+	res.render('editProfile', { pageTitle: 'Edit Profile' });
 };
 
 export const changePassword = (req, res) => {
-	res.render('changePassword');
+	res.render('changePassword', { pageTitle: 'Change Password' });
 };

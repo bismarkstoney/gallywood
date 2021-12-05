@@ -7,4 +7,5 @@
 - Express
 - Node
 - MongoDB
+- Pug
 - And Friends

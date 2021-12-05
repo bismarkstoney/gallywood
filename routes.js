@@ -1,23 +1,25 @@
 const HOME = '/';
-const JOIN = '/join';
-const LOGIN = '/login';
-const LOGOUT = '/logout';
+
 const SEARCH = '/search';
 
 //Users
 
 const USERS = '/';
-const USER_DETAILS = '/:id';
-const EDIT_PROFILE = '/edit-profile';
-const CHANGE_PASSWORD = '/change-password';
+const JOIN = '/users/join';
+const LOGIN = '/users/login';
+const LOGOUT = '/users/logout';
+const USER_DETAILS = '/users/:id';
+
+const EDIT_PROFILE = '/users/edit-profile';
+const CHANGE_PASSWORD = '/users/change-password';
 
 //Videos
 
 const VIDEOS = '/';
-const UPLOAD = '/upload';
-const VIDEO_DETAIL = '/:id';
-const EDIT_VIDEO = '/:id/edit';
-const DELETE_VIDEO = '/:id/delete';
+const UPLOAD = '/videos/upload';
+const VIDEO_DETAIL = '/videos/:id';
+const EDIT_VIDEO = '/videos/:id/edit';
+const DELETE_VIDEO = '/videos/:id/delete';
 
 const routes = {
 	home: HOME,

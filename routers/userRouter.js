@@ -4,6 +4,7 @@ const router = express.Router();
 import {
 	changePassword,
 	getUser,
+	join,
 	login,
 	logout,
 	userDetails,
@@ -13,6 +14,7 @@ import routes from '../routes.js';
 
 router.route(routes.users).get(getUser);
 router.route(routes.login).get(login);
+router.route(routes.join).get(join);
 router.route(routes.logout).get(logout);
 router.route(routes.userDetails).get(userDetails);
 router.route(routes.editProfile).get(userProfileEdit);
